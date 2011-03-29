@@ -1,0 +1,154 @@
+body {
+    font-family: Verdana, Helvetica, sans-serif;    
+    background-color: #DDDDDD;
+    height: 100%; 
+    margin: 0px; 
+    padding: 0px;
+}
+
+html { 
+    height: 100% 
+}
+
+#header {
+    float: left;
+    margin-top: 1em;
+}
+
+#controls {
+    background-color: red;
+    color: white;
+    margin: 0;
+    height: 20%;
+    min-height: 120px;
+    width: 100%;
+    -moz-box-shadow: 0 0 10px 0 black;
+    -webkit-box-shadow: 0 0 10px 0 black;
+    z-index: 999;
+}
+
+#tagline {
+    padding: 20px 0;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#username-input {
+    font-size: 2em;
+    margin: 0 auto 1em auto;
+}
+
+.placeheld {
+    color: gray;
+}
+
+#lookup {
+    height: 1.5em;
+    width: 1.5em;
+    position: relative;
+    left: -34px;
+}
+
+#message {
+    display: block;
+    font-size: 1em;
+    margin: .5em;
+}
+
+#results {
+    float: left;
+    margin: 0em;
+    padding: 0em;
+    background-color: #dddddd;
+    height: 80%;
+    width: 20%;
+    overflow-x: auto;
+    overflow-y: auto;
+    position: relative;
+}
+
+.result {
+    margin: 10px auto;
+    height: 110px;
+    width: 240px;
+    border:1px solid black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.image-space {
+    float: left;
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px;
+}
+
+.image-space img {
+    display: inline;
+}
+
+.description {
+    float: right;
+    width: 120px;
+    overflow: hidden;
+    margin: 10px 5px 0 0em;
+}
+
+.artist {
+    display: block;
+    font-weight: bold;
+    font-size: .9em;
+    margin-bottom: .2em;
+}
+
+.origin {
+    font-size: .9em; 
+}
+
+#map_canvas { 
+    float: left;
+    margin: 0em;
+    padding: 0em;
+    width: 80%;
+    height: 80%;
+}
+
+.clear {
+    clear: both;
+}
+
+#footer-expander {
+    background-color: none;
+    padding: 5px;
+    cursor: pointer;
+    text-align: center;
+    color: black;
+    background-color: red;
+    font-weight: bold;
+    opacity: .9;
+    width: 6em;
+    margin: 0 auto;
+    border: 1px solid #888;
+    border-bottom: none;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    -moz-border-radius-topleft: 10px;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#footer-content {
+    font-size: .75em;
+    border: 1px solid #888;
+    background-color: white;
+    padding: 1em;
+    width: 60%;
+    margin: 0 auto;
+    opacity: .9;
+}
